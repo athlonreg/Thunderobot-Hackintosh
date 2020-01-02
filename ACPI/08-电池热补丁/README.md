@@ -2,7 +2,7 @@
 
 > DSDT 中搜索 EmbeddedControl
 
-![BAT0-01](https://raw.github.com/athlonreg/Thunderobot-Hackintosh/master/imgs/BAT0-01.png)
+![BAT0-01](https://raw.githubusercontent.com/athlonreg/Thunderobot-Hackintosh/master/imgs/BAT0-01.png)
 
 将Field (ERAM, ByteAcc, NoLock, Preserve)后花括号内的大于 16 位的字节连同其前面的 Offset 记录下来，比如
 
