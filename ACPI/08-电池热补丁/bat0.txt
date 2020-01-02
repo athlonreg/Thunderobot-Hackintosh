@@ -1,0 +1,21 @@
+## 获取 > 16 的字节
+Offset (0x70), 
+DSCP,   16, 
+LACP,   16, 
+DSVG,   16, 
+Offset (0x77), 
+BANA,   64, 
+
+Offset (0x82), 
+MBST,   8, 
+MCUR,   16, 
+MBRM,   16, 
+MBCV,   16, 
+LKBR,   8, 
+LKBG,   8, 
+LKBB,   8, 
+Offset (0xCA), 
+FN1R,   16, 
+FN2R,   16,
+Offset (0xFA), 
+VERN,   32
