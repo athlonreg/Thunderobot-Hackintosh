@@ -28,7 +28,7 @@ Offset (0xFA),
 VERN,   32
 ```
 
-###获取需要重写的方法 
+### 获取需要重写的方法 
 
 挨个查找搜索出的大于 16 的字节，查看其是否在`BAT0`设备被调用，如图所示可以看出`DSCP`在方法`UPBI`方法中被调用
 
@@ -200,7 +200,7 @@ Scope (_SB.BAT0)
     }
 ```
 
-将拆分后的替换，如`^^PCI0.LPCB.EC0.DSCP`替换为`B1B2 (^^PCI0.LPCB.EC0.SCP0, ^^PCI0.LPCB.EC0.SCP1)`，`^^PCI0.LPCB.EC0.BANA)`替换为`^^PCI0.LPCB.EC0.RECB (0x77, 64)`
+将拆分后的替换，如`^^PCI0.LPCB.EC0.DSCP`替换为`B1B2 (^^PCI0.LPCB.EC0.SCP0, ^^PCI0.LPCB.EC0.SCP1)`，`^^PCI0.LPCB.EC0.BANA`替换为`^^PCI0.LPCB.EC0.RECB (0x77, 64)`
 
 ```
 Scope (_SB.BAT0)
