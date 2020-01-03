@@ -18,7 +18,7 @@ SSDT-XSPI		-	缺失部件(从目前接触到的雷神来看，DSDT 均没有此�
 > 定制型
 
 ```
-SSDT-BKey		-	亮度快捷键补丁(从目前接触到的雷神来看，亮度快捷键均在 Q60 下，具体内容按照模板以 DSDT 为基准修改)
+SSDT-BKey		-	亮度快捷键补丁(从目前接触到的雷神来看，亮度快捷键多数在 Q60 下(有的存在于 _Q11 和 _Q12 下)，具体内容按照模板以 DSDT 为基准修改)
 SSDT-HRTF		-	声卡中断号修复(以 DSDT 中的 HPET、RTC、TIMR 内容为基准进行定制)
 SSDT-OC-BAT0		-	电池热补丁(以 DSDT 中的 Embed 部分内容为基准进行定制)
 SSDT-OCGPI0-GPHD	-	启用 GPI0 中断(以 DSDT 中的 Device (GPI0)  部分内容为基准进行定制)( I2C 触摸板需要)
